@@ -37,4 +37,4 @@ Solution.java
 *.properties
 /config/*.properties
 /src/main/resources
-/.mvn/wrapper/
+/.mvn/wrapper/*.*
