@@ -36,3 +36,4 @@ Solution.java
 
 *.properties
 /config/*.properties
+/src/main/resources
