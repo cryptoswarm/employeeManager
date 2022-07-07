@@ -34,5 +34,5 @@ build/
 
 Solution.java
 
-.properties
-/config/application.properties
+*.properties
+/config/*.properties
