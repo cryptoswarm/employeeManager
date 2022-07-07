@@ -1,0 +1,29 @@
+# ===============================
+# = DATA SOURCE
+# ===============================
+# Set here configurations for the database connection
+spring.datasource.url= set your connection string
+spring.datasource.username=your username
+spring.datasource.password=your password
+
+# Keep the connection alive if idle for a long time (needed in production)
+spring.datasource.testWhileIdle=true
+
+# Hibernate ddl auto (create, create-drop, update): with "create-drop" the database
+# use create-drop : schema will be automatically created afresh for every start of application  just during developpement
+# use update (it is not recommended because it does not remove columns that are no longer used )
+# use non for production
+
+spring.jpa.hibernate.ddl-auto=update
+
+# ===============================
+# = JPA / HIBERNATE
+# ===============================
+# Show or not log for each sql query
+spring.jpa.show-sql=true
+# Allows Hibernate to generate SQL optimized for a particular DBMS
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.Oracle12cDialect
+#org.hibernate.dialect.Oracle10gDialect
+spring.jpa.properties.hibernate.format_sql=true
+server.error.include-message=always
+
